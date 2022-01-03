@@ -1,59 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# LUX REALTY
 
-> One paragraph statement about the project.
+> Luxury property is only a call and a consultation away.
 
-![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
+![screenshot]()
+
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML | CSS | JavaScript
+
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]()
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Text Editor | Git and Github set up
 
 ### Setup
-
-### Install
+- Clone repository and open with text editor
 
 ### Usage
-
-### Run tests
-
-### Deployment
+- View Portfolio 
 
 
+## Author
 
-## Authors
+👤 **STEVE W DAMES JR**
 
-👤 **Author1**
+- GitHub: [@githubhandle](https://github.com/steveWDamesJr)
+- Twitter: [@twitterhandle](https://twitter.com/Steve88312331)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/steve-w-dames-jr/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -67,8 +55,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Inspiration: 
+  Cindy Shin
+  GUI & Graphic Designer
+  Seoul, Korea, Republic of
 - Hat tip to anyone whose code was used
-- Inspiration
 - etc
 
 ## 📝 License
