@@ -112,3 +112,35 @@ const data = [{
   info: 'A born and raised Atlanta native, Georgia got her start in real estate in 2016. Having worked as an assistant, a listing coordinator, and a buyer\'s agent, she knows all the ins and outs of the real estate world.',
 },
 ];
+
+const header = document.getElementById('header');
+const featuredSpeaker = document.querySelector('.featured-speakers');
+const loadMore = document.querySelector('.load-more');
+const loadMoreBtn = document.querySelector('.load-more-btn');
+let initialLoad = 0;
+
+
+function printCards() {
+  for (let i = initialLoad; i < initialLoad + 4; i += 1) {
+    const markup = `<div class="each-speaker">
+          <div class='speaker-img'>
+          <img src='${data[i].img}' class='speaker-photo' alt="">
+          </div>
+          <div class="speaker-text">
+            <h3>${data[i].name}</h3>
+            <span class="italic">${data[i].known}</span>
+            <div class="underline-small"></div>
+            <p class="speaker-text-p">${data[i].info}</p>
+
+          </div>
+        </div>`;
+    featuredSpeaker.innerHTML += markup;
+    if (initialLoad === data.length - 4) {
+      loadMoreBtn.classList.add('hidden');
+    }
+  }
+  initialLoad += 4;
+}
+printCards();
+
+loadMore.addEventListener('click', printCards);
