@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://stevewdamesjr.github.io/html-css-js-capstone/)
 
 
 ## Getting Started
