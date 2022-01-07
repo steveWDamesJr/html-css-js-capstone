@@ -1,59 +1,54 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# LUX REALTY
 
-> One paragraph statement about the project.
+> Luxury property is only a call and a consultation away.
 
-![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
 
+# Screenshots
+![DESKTOP VIEW](./images/LUX-REALTY.png)
+![MOBILE VIEW](./images/LUX-REALTY-MOBILE.png)
+![DROP DOWN MENU MOBILE VIEW](./images/LUX-DROP-MENU-MOBILE.png)
+
+
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML | CSS | JavaScript
+
+## Video Explanation
+
+[Watch Now](https://www.loom.com/share/12f50a8ab8774f1ab369794c0e02ee95)
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://stevewdamesjr.github.io/html-css-js-capstone/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Text Editor | Git and Github set up
 
 ### Setup
-
-### Install
+- Clone repository and open with text editor
 
 ### Usage
-
-### Run tests
-
-### Deployment
+- View Portfolio 
 
 
+## Author
 
-## Authors
+👤 **STEVE W DAMES JR**
 
-👤 **Author1**
+- GitHub: [@githubhandle](https://github.com/steveWDamesJr)
+- Twitter: [@twitterhandle](https://twitter.com/Steve88312331)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/steve-w-dames-jr/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -67,8 +62,17 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Inspiration: 
+  Cindy Shin
+  GUI & Graphic Designer
+  Seoul, Korea, Republic of
+- Logo Design attribution:
+  <a href="https://www.vecteezy.com/free-vector/house">House Vectors by Vecteezy</a>
+- Photos:
+  - Photo by <a href="https://unsplash.com/@steve4c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephan Bechert</a> on <a href="https://unsplash.com/s/photos/luxury-real-estate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  - Photo by <a href="https://unsplash.com/@pho_2_graph?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Avi Werde</a> on <a href="https://unsplash.com/s/photos/luxury-real-estate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  - Photo by <a href="https://unsplash.com/@webaliser?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ярослав Алексеенко</a> on <a href="https://unsplash.com/s/photos/luxury-real-estate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - Hat tip to anyone whose code was used
-- Inspiration
 - etc
 
 ## 📝 License

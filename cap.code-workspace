@@ -1,0 +1,11 @@
+{
+	"folders": [
+    {
+      "name": "html-css-js-capstone",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "html-css-js-capstone"
+  }
+}
