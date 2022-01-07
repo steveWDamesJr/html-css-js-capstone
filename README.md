@@ -6,13 +6,20 @@
 
 
 Additional description about the project and its features.
-![screenshot]()
+
+# Screenshots
+![DESKTOP VIEW](./images/LUX-REALTY.png)
+![MOBILE VIEW](./images/LUX-REALTY-MOBILE.png)
+![DROP DOWN MENU MOBILE VIEW](./images/LUX-DROP-MENU-MOBILE.png)
 
 
 ## Built With
 
 - HTML | CSS | JavaScript
 
+## Video Explanation
+
+[Watch Now](https://www.loom.com/share/12f50a8ab8774f1ab369794c0e02ee95)
 
 ## Live Demo
 
