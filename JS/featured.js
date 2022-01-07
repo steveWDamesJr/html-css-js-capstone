@@ -27,12 +27,6 @@ closeBtn.addEventListener('click', () => {
   closeBtn.classList.add('hidden');
 });
 
-const options = {
-  root: null,
-  threshold: 0,
-  rootMargin: '-150px',
-};
-
 const data = [{
   img: './images/Graclyn-Meadows.jpg',
   name: 'Graclyn-Meadows',
@@ -113,7 +107,6 @@ const data = [{
 },
 ];
 
-const header = document.getElementById('header');
 const featuredSpeaker = document.querySelector('.featured-speakers');
 const loadMore = document.querySelector('.load-more');
 const loadMoreBtn = document.querySelector('.load-more-btn');
