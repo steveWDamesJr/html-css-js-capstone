@@ -52,7 +52,7 @@ const data = [{
   info: 'James earned his real estate license as a sophomore in college and joined Keller Williams Realty with Team Rich Richardson as a summer intern while pursuing a degree in Management.  ',
 },
 {
-  img: './images/Jars-landoh.jpg',
+  img: './images/Jars-Landoh.jpg',
   name: 'Jars-Landoh',
   known: 'President',
   info: 'Jars attended Georgia Tech where he was a President\'s Scholar and graduated Highest Honors with a degree in Chemical Engineering. He joined the KW Peachtree Road office in Brookhaven in May of 2008 after five years in the real estate industry. Thanks to his sales growth, he started The Jars-Landoh Group at the beginning of 2013.',

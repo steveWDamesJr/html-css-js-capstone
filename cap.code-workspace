@@ -1,12 +1,14 @@
 {
 	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../../../Downloads/linters-config-master/html-css-js/.github"
-		}
-	],
+    {
+      "name": ".github",
+      "path": "../../../Downloads/linters-config-master/html-css-js/.github"
+    },
+    {
+      "name": "html-css-js-capstone",
+      "path": "."
+    }
+  ],
   "settings": {
     "liveServer.settings.multiRootWorkspaceName": "html-css-js-capstone"
   }
