@@ -1,13 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
   <title>LUX REALTY</title>
 </head>
+
 <body>
-  <h1>LUX REALTY</h1>
-  
+  <header class="header" id="header"> 
+    <nav class="navbar">
+      <div class="nav1">
+        <ul class="nav1-items">
+          <li><span class="nav1-icons"><i class="fab fa-facebook"></i></span></li>
+          <li><span class="nav1-icons"><i class="fab fa-twitter"></i></span></li>
+          <li><span class="nav1-icons">English</span></li>
+          <li><span class="nav1-icons">My Page</span></li>
+          <li><span class="nav1-icons">Logout</span></li>
+        </ul>
+      </div>
+      <div class="nav2">
+        <div class="nav-head-sec">
+          <button type="button" aria-label="Hamburger" class="nav-toggle" id="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="logo" onclick="window.location='index.html';" id="logo">
+            <img class="logo-img" src="./images/logo.jpg" alt="Logo">
+            <div class="logo-text">
+              <span>LUX REALTY</span>
+            </div>
+          </div>
+
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li>
+            <button type="button" id="close-btn" aria-label="Close" class="hidden">
+              <i class="fas fa-times"></i>
+            </button>
+          </li>
+          <li class="nav-lis">
+            <a href="aboutlux.html" class="nav-item active">About</a>
+          </li>
+          <li class="nav-lis">
+            <a href="index.html" class="nav-item">Program</a>
+          </li>
+          <li class="nav-lis">
+            <a href="index.html" class="nav-item">Join</a>
+          </li>
+          <li class="nav-lis">
+            <a href="index.html" class="nav-item">Sponsor</a>
+          </li>
+          <li class="nav-lis">
+            <a href="index.html" class="nav-item">News</a>
+          </li>
+          <li class="nav-lis">
+            <a href="index.html" class="nav-item" id="last-nav-item" >CC-Campaign</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="hero">
+      <div class="hero-text">
+        <h2>"Hello! Luxury Property seekers"</h2>
+        <h1>Annual Open House Event 2022</h1>
+        <p class="hero-text-par">
+          Real Estate Dreams become reality this spring with a selection of homes and property to satisfy even the most
+          demanding and exquisite tastes. We don't just sell property, we ensure that every property is specifically
+          tailored to the exacting requirements of our clientele. Whatever your treasure, you are bound to find it with
+          us. See you there; it's bound to be the best decision you've ever made for generations to come!
+        </p>
+        <div class="event-info">
+          <div class="schedule-text">
+            <h2 id="start-date">04.30.2022(SAT) ~ 31(SUN) 8 AM ~ 4 PM</h2>
+            <h3>@Luxhome Cay, Nassau, Bahamas</h3>
+          </div>
+
+          <table class="date-con">
+            <tr>
+              <td id="date-con-title" colspan="4">Countdown To Your Event:</td>
+            </tr>
+            <tr>
+              <td>Days</td>
+              <td>Hours</td>
+              <td>Minutes</td>
+              <td>Seconds</td>
+            </tr>
+            <tr>
+              <td id="days">115</td>
+              <td id="hours">13</td>
+              <td id="minutes">2</td>
+              <td id="seconds">42</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <span class="page-up"><a href="#header" aria-label="page-up"><span class="iconify page-up-icon" data-icon="flat-color-icons:upload"></span></a></span>
+  </main>
+
+  <section class="programs">
+    <div class="program-title">
+      <h2 class="program-title-about Main-Pro">Main Program</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="all-programs">
+      <div class="one-program">
+        <span class="iconify icon-img" data-icon="flat-color-icons:home"></span>
+        <h4>Open House with Lux Realty</h4>
+        <p>
+          Come and see these waterfront properties in all their Tropical glory!
+        </p>
+      </div>
+      <div class="one-program">
+        <span class="iconify icon-img" data-icon="flat-color-icons:edit-image"></span>
+        <h4>Art Expose</h4>
+        <p>
+          Enter the free art Gallery, savour world-class wine and sample decadent hand-picked cheeses.
+        </p>
+      </div>
+      <div class="one-program">
+        <span class="iconify icon-img" data-icon="flat-color-icons:businessman"></span>
+        <h4>World Class Brokers</h4>
+        <p>
+          Secure your investment with professional brokers from leading insurance companies.
+        </p>
+      </div>
+      <div class="one-program">
+        <span class="iconify icon-img" data-icon="flat-color-icons:filing-cabinet"></span>
+        <h4>Furniture and Appliance</h4>
+        <p>Find top names in civilian equipment and furnishings ready to accent your new home.</p>
+      </div>
+      <div class="one-program">
+        <span class="iconify icon-img" data-icon="flat-color-icons:dam"></span>
+        <h4>Luxury Pools</h4>
+        <p>
+          Only the most creative pool designs are on the display at this years event.
+        </p>
+      </div>
+      <div class="one-program">
+        <span class="iconify icon-img" data-icon="flat-color-icons:vip"></span>
+        <h4>Giveaways</h4>
+        <p>
+          A chance to take home over a $100,000 in cash and prizes.
+        </p>
+      </div>
+    </div>
+    <div class="rsvp-div">
+      <a href="#" class="btn rsvp-btn">R.S.V.P. Lux Realty Open House 2022</a>
+    </div>
+    <div class="more-info">
+      <h3><a href="#">SEE THE WHOLE PROGRAM</a></h3>
+      <hr />
+    </div>
+  </section>
+
+  <section class="speakers">
+    <div class="program-title">
+      <h2 class="Feat-Spkrs">Featured Speakers</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="featured-speakers"></div>
+    <div class="load-more-btn">
+      <button type="button" class="btn load-more">
+        MORE <span><i class="fas fa-angle-down"></i></span>
+      </button>
+    </div>
+  </section>
+  <section class="partners">
+    <div class="program-title">
+      <h2 class="Feat-Spkrs">Partners</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="all-partners">
+      <div class="each-partner c21">
+        <h3>Century</h3>
+        <h3>21</h3>
+      </div>
+      <div class="each-partner google">
+        <h3>Google</h3>
+      </div>
+      <div class="each-partner fg">
+        <h3>Family Guardian</h3>
+      </div>
+      <div class="each-partner bhhs">
+        <h3>Berkshire Hathaway</h3>
+        <h3>HomeServices</h3>
+      </div>
+      <div class="each-partner airbnb">
+        <span class="airbnb-i"><i class="fab fa-airbnb"></i></span>
+        <h3>airbnb</h3>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-logo">
+      <div class="logo">
+        <img class="logo-img" src="./images/logo.jpg" alt="Logo">
+        <div class="logo-text footer-logo-text">
+          <span>LUX REALTY</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-text">
+      <p>2022 Lux Realty Open House. All Rights Reserved</p>
+      <p>
+        For any copyright violation, please contact on the following email
+        address: stevewdamesjr@gmail.com.
+      </p>
+    </div>
+  </footer>
+  <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+  <script src="./JS/featured.js"></script>
 </body>
+
 </html>

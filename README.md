@@ -59,6 +59,12 @@ Give a ⭐️ if you like this project!
   Cindy Shin
   GUI & Graphic Designer
   Seoul, Korea, Republic of
+- Logo Design attribution:
+  <a href="https://www.vecteezy.com/free-vector/house">House Vectors by Vecteezy</a>
+- Photos:
+  - Photo by <a href="https://unsplash.com/@steve4c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephan Bechert</a> on <a href="https://unsplash.com/s/photos/luxury-real-estate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  - Photo by <a href="https://unsplash.com/@pho_2_graph?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Avi Werde</a> on <a href="https://unsplash.com/s/photos/luxury-real-estate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  - Photo by <a href="https://unsplash.com/@webaliser?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ярослав Алексеенко</a> on <a href="https://unsplash.com/s/photos/luxury-real-estate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - Hat tip to anyone whose code was used
 - etc
 
