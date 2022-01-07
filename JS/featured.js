@@ -119,12 +119,11 @@ const loadMore = document.querySelector('.load-more');
 const loadMoreBtn = document.querySelector('.load-more-btn');
 let initialLoad = 0;
 
-
 function printCards() {
   for (let i = initialLoad; i < initialLoad + 4; i += 1) {
     const markup = `<div class="each-speaker">
           <div class='speaker-img'>
-          <img src='${data[i].img}' class='speaker-photo' alt="">
+          <img src='${data[i].img}' class='speaker-photo' alt="Featured Speaker">
           </div>
           <div class="speaker-text">
             <h3>${data[i].name}</h3>
@@ -144,3 +143,31 @@ function printCards() {
 printCards();
 
 loadMore.addEventListener('click', printCards);
+
+function countDown() {
+  const now = new Date();
+  const eventDate = new Date(2022, 4, 30, 4);
+  const currentTime = now.getTime();
+  const eventTime = eventDate.getTime();
+
+  const remTime = eventTime - currentTime;
+  let s = Math.floor(remTime / 1000);
+  let m = Math.floor(s / 60);
+  let h = Math.floor(m / 60);
+  const d = Math.floor(h / 24);
+
+  h %= 24;
+  m %= 60;
+  s %= 60;
+
+  h = h < 10 ? `0${h}` : h;
+  m = m < 10 ? `0${m}` : m;
+  s = s < 10 ? `0${s}` : s;
+  document.getElementById('days').textContent = d;
+  document.getElementById('hours').textContent = h;
+  document.getElementById('minutes').textContent = m;
+  document.getElementById('seconds').textContent = s;
+
+  setTimeout(countDown, 1000);
+}
+countDown();
